@@ -1,0 +1,7 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.textarea({
+    name: 'noteContent',
+    placeholder: 'Note Content'|t,
+    value: settings.noteContent
+}) }}
